@@ -535,9 +535,25 @@ TensorFlow: 2.10+
 
 ================================================================================
 
+Trained Model weights:
+
+Due to the large size of the file (~140MB), the final trained weights are hosted externally. This file is essential to run the GUI and perform real-time detection without retraining.
+
+
+File Name: brain_tumor_vgg16_model.h5 
+
+Model Link: https://drive.google.com/file/d/1FQlgow7re9547o2wZzV2obZles20-QEH/view?usp=sharing
+
+
+Usage: After downloading, place this file in the main project folder so the Python script can load the VGG16 architecture correctly.
+
+================================================================================
+
 Thank you for using the Brain Tumor Detection System!
+
 
 Remember: This is a screening tool. Always consult healthcare professionals
 for proper medical diagnosis and treatment.
+
 
 ================================================================================
